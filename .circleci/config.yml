@@ -1,0 +1,16 @@
+version: 2.1
+jobs:
+  build:
+    steps:
+      - checkout
+      - run:
+          command: yarn start
+orbs:
+  orb: choilmto/orb@1.0.1
+workflows:
+  build-log:
+    jobs:
+      - orb/workflow-collector:
+          org-name: "first-brick"
+      - build
+      - test
