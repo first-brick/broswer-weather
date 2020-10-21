@@ -1,5 +1,7 @@
 Create a react app that displays weather information on the browser. Use any open API.
 
+Create a .env file and add the Api Key for api.openweathermap.org with key as `API_KEY`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
