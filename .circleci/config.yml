@@ -13,4 +13,3 @@ workflows:
       - orb/workflow-collector:
           org-name: "first-brick"
       - build
-      - test
